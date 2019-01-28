@@ -16,4 +16,7 @@
 <resources>
     <string name="app_name">Quake Report</string>
     <string name="near_the">Near the</string>
+    <string name="no_earthquakes">No Earthquake Activity Found</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
 </resources>
