@@ -2,13 +2,13 @@ language: android
 jdk: oraclejdk8
 sudo: required
 android:
-	components:
-	-tools
-	-build-tools-23.0.2
-	
+  components:
+    -tools
+    -build-tools-23.0.2
+    -android-23
 
 before_install:
-	-yes | sdkmanager "platforms;android-23"
-	-chmod +x gradlew
+    -yes | sdkmanager "platforms;android-23"
+    -chmod +x gradlew
 
 script: "./gradlew build --stacktrace"
