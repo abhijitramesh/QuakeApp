@@ -1,6 +1,6 @@
 Fixes #Issue_Number
 
-Please make sure these boxes are checked before submitting your pull request - thanks you!
+Please make sure these boxes are checked before submitting your pull request - thank you!
 
 - [ ] Run unit tests with `./gradlew check` to make sure you didn't break anything
 
